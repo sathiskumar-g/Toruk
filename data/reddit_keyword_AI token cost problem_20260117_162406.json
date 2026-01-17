@@ -1,0 +1,39 @@
+{
+  "keyword": "AI token cost problem",
+  "searched_at": "2026-01-17T16:24:06.997637",
+  "raw_results": 2,
+  "problems_found": 1,
+  "opportunities": [
+    {
+      "id": "1pks19s",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/SaaS/comments/1pks19s/ai_costs_are_starting_to_break_saas_economics_and/",
+      "original_title": "AI costs are starting to break SaaS economics and Oracle just proved it",
+      "problem_statement": "AI costs are starting to break SaaS economics and Oracle just proved it - AI costs are starting to break SaaS economics and Oracle just proved it Oracle dropped 10% this week even though their cloud infra grew 52% and gpu us...",
+      "category": "Cost/Pricing",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "problem",
+        "limited"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 2,
+        "comments": 16
+      },
+      "author": "Fun_Ostrich_5521",
+      "created_at": null,
+      "extracted_at": "2026-01-17T16:24:06.997637",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 2.3,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 5,
+        "total": 22.3
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately"
+    }
+  ]
+}

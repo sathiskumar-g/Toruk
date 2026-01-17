@@ -1,0 +1,41 @@
+{
+  "keyword": "LLM cost unpredictable",
+  "searched_at": "2026-01-17T16:23:49.650129",
+  "raw_results": 3,
+  "problems_found": 1,
+  "opportunities": [
+    {
+      "id": "1p5i5ol",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/SaaS/comments/1p5i5ol/how_are_you_all_modeling_ai_token_usage_api_costs/",
+      "original_title": "How are you all modeling AI token usage + API costs for your SaaS? (Sharing my approach + a tool I built for this)",
+      "problem_statement": "How are you all modeling AI token usage + API costs for your SaaS? (Sharing my approach + a tool I built for this) - How are you all modeling AI token usage + API costs for your SaaS? (Sharing my approach + a tool I built for this) One thing I keep noticing while wor...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "anthropic"
+      ],
+      "matched_keywords": [
+        "pricing"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "Ok_Perception8400",
+      "created_at": null,
+      "extracted_at": "2026-01-17T16:23:49.650129",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 1.0,
+        "proximity": 6.0,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 21.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately"
+    }
+  ]
+}

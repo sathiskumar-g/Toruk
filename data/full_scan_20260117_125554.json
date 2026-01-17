@@ -1,0 +1,1345 @@
+{
+  "scanned_at": "2026-01-17T12:55:54.468209",
+  "tools_scanned": 21,
+  "total_opportunities": 34,
+  "opportunities": [
+    {
+      "id": "39460788",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=39460788",
+      "original_title": "Tell HN: GPT copilots aren’t that great for programming",
+      "problem_statement": "Tell HN: GPT copilots aren’t that great for programming - Tell HN: GPT copilots aren’t that great for programming For context, I&#x27;m a experienced SWE working on some fairly complex things. I&#x27;ve been ...",
+      "category": "Documentation",
+      "tools_mentioned": [
+        "gpt"
+      ],
+      "matched_keywords": [
+        "hate",
+        "issue",
+        "problem",
+        "limited"
+      ],
+      "pain_score": 8,
+      "engagement": {
+        "reactions": 193,
+        "comments": 135
+      },
+      "author": "swman",
+      "created_at": "2024-02-21T22:56:01Z",
+      "extracted_at": "2026-01-17T12:55:30.788262",
+      "opportunity_score": {
+        "pain": 8,
+        "pervasiveness": 10,
+        "proximity": 7.5,
+        "payment": 5.0,
+        "plausibility": 9,
+        "total": 39.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "copilot"
+    },
+    {
+      "id": "37914672",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=37914672",
+      "original_title": "Show HN: I made an all-in-one desktop app with a no-BS approach to get work done",
+      "problem_statement": "Show HN: I made an all-in-one desktop app with a no-BS approach to get work done - Show HN: I made an all-in-one desktop app with a no-BS approach to get work done Hi HN! This is Daniel from Floutwork (<a href=\"https:&#x2F;&#x2F;www....",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "gpt"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "lack",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 206,
+        "comments": 154
+      },
+      "author": "daniel_sushil",
+      "created_at": "2023-10-17T13:25:34Z",
+      "extracted_at": "2026-01-17T12:55:24.687421",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 10,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 35.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "chatgpt"
+    },
+    {
+      "id": "36987454",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=36987454",
+      "original_title": "Launch HN: Sweep (YC S23) – A bot to create simple PRs in your codebase",
+      "problem_statement": "Launch HN: Sweep (YC S23) – A bot to create simple PRs in your codebase - Launch HN: Sweep (YC S23) – A bot to create simple PRs in your codebase Hi HN! We’re William and Kevin, cofounders of Sweep (<a href=\"https:&#x2F;&#x2...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "gpt",
+        "make",
+        "dify"
+      ],
+      "matched_keywords": [
+        "frustrating",
+        "not working",
+        "error",
+        "bug",
+        "issue",
+        "problem",
+        "limitation",
+        "limited",
+        "looking for"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 198,
+        "comments": 114
+      },
+      "author": "williamzeng0",
+      "created_at": "2023-08-03T15:45:58Z",
+      "extracted_at": "2026-01-17T12:55:30.780122",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 10,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 35.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "copilot"
+    },
+    {
+      "id": "34955699",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=34955699",
+      "original_title": "Launch HN: Infisical (YC W23) – Open-source secrets manager for developers",
+      "problem_statement": "Launch HN: Infisical (YC W23) – Open-source secrets manager for developers - Launch HN: Infisical (YC W23) – Open-source secrets manager for developers Hi HN, we’re the co-founders of Infisical (<a href=\"https:&#x2F;&#x2F;infis...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "make",
+        "vercel",
+        "docker",
+        "kubernetes"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "missing",
+        "complicated",
+        "difficult",
+        "need",
+        "alternative"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 231,
+        "comments": 121
+      },
+      "author": "vmatsiiako",
+      "created_at": "2023-02-27T12:39:29Z",
+      "extracted_at": "2026-01-17T12:55:32.871034",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 10,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 35.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "vercel"
+    },
+    {
+      "id": "36309120",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=36309120",
+      "original_title": "Launch HN: Resend (YC W23) – Email API for developers using React",
+      "problem_statement": "Launch HN: Resend (YC W23) – Email API for developers using React - Launch HN: Resend (YC W23) – Email API for developers using React Hi HN! I&#x27;m Zeno, founder of Resend (<a href=\"https:&#x2F;&#x2F;resend.com\">http...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "supabase",
+        "vercel"
+      ],
+      "matched_keywords": [
+        "frustrated",
+        "issue",
+        "problem",
+        "slow",
+        "hard to",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 432,
+        "comments": 270
+      },
+      "author": "zenorocha",
+      "created_at": "2023-06-13T12:16:25Z",
+      "extracted_at": "2026-01-17T12:55:32.873042",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 10,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 35.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "vercel"
+    },
+    {
+      "id": "36309120",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=36309120",
+      "original_title": "Launch HN: Resend (YC W23) – Email API for developers using React",
+      "problem_statement": "Launch HN: Resend (YC W23) – Email API for developers using React - Launch HN: Resend (YC W23) – Email API for developers using React Hi HN! I&#x27;m Zeno, founder of Resend (<a href=\"https:&#x2F;&#x2F;resend.com\">http...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "supabase",
+        "vercel"
+      ],
+      "matched_keywords": [
+        "frustrated",
+        "issue",
+        "problem",
+        "slow",
+        "hard to",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 432,
+        "comments": 270
+      },
+      "author": "zenorocha",
+      "created_at": "2023-06-13T12:16:25Z",
+      "extracted_at": "2026-01-17T12:55:35.034229",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 10,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 35.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "supabase"
+    },
+    {
+      "id": "34971883",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=34971883",
+      "original_title": "Launch HN: Pyq (YC W23) – Simple APIs to Popular AI Models",
+      "problem_statement": "Launch HN: Pyq (YC W23) – Simple APIs to Popular AI Models - Launch HN: Pyq (YC W23) – Simple APIs to Popular AI Models Hello HN! We’re Emily and Aman, the cofounders of Pyq (<a href=\"https:&#x2F;&#x2F;www.pyqai...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "gpt",
+        "make",
+        "docker"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "expensive",
+        "pricing",
+        "difficult",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 123,
+        "comments": 24
+      },
+      "author": "araghuvanshi",
+      "created_at": "2023-02-28T17:14:59Z",
+      "extracted_at": "2026-01-17T12:55:22.291775",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 9.5,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 35.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "openai"
+    },
+    {
+      "id": "34971883",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=34971883",
+      "original_title": "Launch HN: Pyq (YC W23) – Simple APIs to Popular AI Models",
+      "problem_statement": "Launch HN: Pyq (YC W23) – Simple APIs to Popular AI Models - Launch HN: Pyq (YC W23) – Simple APIs to Popular AI Models Hello HN! We’re Emily and Aman, the cofounders of Pyq (<a href=\"https:&#x2F;&#x2F;www.pyqai...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "gpt",
+        "make",
+        "docker"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "expensive",
+        "pricing",
+        "difficult",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 123,
+        "comments": 24
+      },
+      "author": "araghuvanshi",
+      "created_at": "2023-02-28T17:14:59Z",
+      "extracted_at": "2026-01-17T12:55:24.687421",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 9.5,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 35.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "chatgpt"
+    },
+    {
+      "id": "44309393",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=44309393",
+      "original_title": "Show HN: Free local security checks for AI coding in VSCode, Cursor and Windsurf",
+      "problem_statement": "Show HN: Free local security checks for AI coding in VSCode, Cursor and Windsurf - Show HN: Free local security checks for AI coding in VSCode, Cursor and Windsurf Hi HN!<p>We just launched Codacy Guardrails, an IDE extension with a ...",
+      "category": "Documentation",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "bug",
+        "issue",
+        "problem",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 43,
+        "comments": 22
+      },
+      "author": "jaimefjorge",
+      "created_at": "2025-06-18T12:42:51Z",
+      "extracted_at": "2026-01-17T12:55:30.788262",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 7.5,
+        "proximity": 7.5,
+        "payment": 5.0,
+        "plausibility": 9,
+        "total": 35.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "copilot"
+    },
+    {
+      "id": "36326525",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=36326525",
+      "original_title": "Launch HN: Credal.ai (YC W23) – Data Safety for Enterprise AI",
+      "problem_statement": "Launch HN: Credal.ai (YC W23) – Data Safety for Enterprise AI - Launch HN: Credal.ai (YC W23) – Data Safety for Enterprise AI Hi Hacker News! We’re Ravin and Jack, the founders of Credal.ai (<a href=\"https:&#x2F;&#...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "gpt",
+        "anthropic",
+        "make",
+        "pinecone"
+      ],
+      "matched_keywords": [
+        "hate",
+        "issue",
+        "problem",
+        "limited",
+        "cannot",
+        "lack",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 114,
+        "comments": 24
+      },
+      "author": "r_thambapillai",
+      "created_at": "2023-06-14T14:26:55Z",
+      "extracted_at": "2026-01-17T12:55:43.204840",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 9.3,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 34.8
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "anthropic"
+    },
+    {
+      "id": "45679307",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=45679307",
+      "original_title": "AI assistance is only making coders dumb, lazy and prone to replacement",
+      "problem_statement": "AI assistance is only making coders dumb, lazy and prone to replacement - AI assistance is only making coders dumb, lazy and prone to replacement LLMs like ChatGPT and copilot are like those super saturated junk food like a ...",
+      "category": "Documentation",
+      "tools_mentioned": [
+        "gpt"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "documentation",
+        "need",
+        "replacement"
+      ],
+      "pain_score": 7,
+      "engagement": {
+        "reactions": 27,
+        "comments": 14
+      },
+      "author": "pyeri",
+      "created_at": "2025-10-23T07:46:56Z",
+      "extracted_at": "2026-01-17T12:55:24.687421",
+      "opportunity_score": {
+        "pain": 7,
+        "pervasiveness": 6.0,
+        "proximity": 7.5,
+        "payment": 5.0,
+        "plausibility": 9,
+        "total": 34.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "chatgpt"
+    },
+    {
+      "id": "39917364",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=39917364",
+      "original_title": "Show HN: Burr – A framework for building and debugging GenAI apps faster",
+      "problem_statement": "Show HN: Burr – A framework for building and debugging GenAI apps faster",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "langchain",
+        "make"
+      ],
+      "matched_keywords": [
+        "error",
+        "bug",
+        "issue",
+        "problem",
+        "limited"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 94,
+        "comments": 22
+      },
+      "author": "elijahbenizzy",
+      "created_at": "2024-04-03T13:42:34Z",
+      "extracted_at": "2026-01-17T12:55:13.669864",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 8.9,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 34.4
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "langchain"
+    },
+    {
+      "id": "46324665",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=46324665",
+      "original_title": "Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT)",
+      "problem_statement": "Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT) - Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT) Hi HN, I&#x27;m Mohammed, a technical founder who loves shipping and gi...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "claude",
+        "supabase",
+        "vercel",
+        "docker"
+      ],
+      "matched_keywords": [
+        "fails",
+        "issue",
+        "problem",
+        "bill",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 83,
+        "comments": 35
+      },
+      "author": "moh_quz",
+      "created_at": "2025-12-19T11:34:11Z",
+      "extracted_at": "2026-01-17T12:55:32.873042",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 8.7,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 34.2
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "vercel"
+    },
+    {
+      "id": "46324665",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=46324665",
+      "original_title": "Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT)",
+      "problem_statement": "Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT) - Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT) Hi HN, I&#x27;m Mohammed, a technical founder who loves shipping and gi...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "claude",
+        "supabase",
+        "vercel",
+        "docker"
+      ],
+      "matched_keywords": [
+        "fails",
+        "issue",
+        "problem",
+        "bill",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 83,
+        "comments": 35
+      },
+      "author": "moh_quz",
+      "created_at": "2025-12-19T11:34:11Z",
+      "extracted_at": "2026-01-17T12:55:35.034229",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 8.7,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 34.2
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "supabase"
+    },
+    {
+      "id": "45580771",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=45580771",
+      "original_title": "Show HN: Metorial (YC F25) – Vercel for MCP",
+      "problem_statement": "Show HN: Metorial (YC F25) – Vercel for MCP - Show HN: Metorial (YC F25) – Vercel for MCP Hey HN! We&#x27;re Wen and Tobias, and we&#x27;re building Metorial (<a href=\"https:&#x2F;&#x2F;metorial.c...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "claude",
+        "make",
+        "vercel",
+        "docker"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "lack",
+        "expensive",
+        "slow",
+        "alternative"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 59,
+        "comments": 25
+      },
+      "author": "tobihrbr",
+      "created_at": "2025-10-14T14:49:56Z",
+      "extracted_at": "2026-01-17T12:55:26.995845",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 8.2,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 33.7
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "claude"
+    },
+    {
+      "id": "43822659",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=43822659",
+      "original_title": "Show HN: Web-eval-agent – Let the coding agent debug itself",
+      "problem_statement": "Show HN: Web-eval-agent – Let the coding agent debug itself",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "claude",
+        "anthropic"
+      ],
+      "matched_keywords": [
+        "error",
+        "bug",
+        "issue",
+        "problem",
+        "bill",
+        "slow",
+        "alternative"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 84,
+        "comments": 12
+      },
+      "author": "neversettles",
+      "created_at": "2025-04-28T15:36:25Z",
+      "extracted_at": "2026-01-17T12:55:26.995845",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 8.2,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 33.7
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "claude"
+    },
+    {
+      "id": "43822659",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=43822659",
+      "original_title": "Show HN: Web-eval-agent – Let the coding agent debug itself",
+      "problem_statement": "Show HN: Web-eval-agent – Let the coding agent debug itself",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "claude",
+        "anthropic"
+      ],
+      "matched_keywords": [
+        "error",
+        "bug",
+        "issue",
+        "problem",
+        "bill",
+        "slow",
+        "alternative"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 84,
+        "comments": 12
+      },
+      "author": "neversettles",
+      "created_at": "2025-04-28T15:36:25Z",
+      "extracted_at": "2026-01-17T12:55:43.204840",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 8.2,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 33.7
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "anthropic"
+    },
+    {
+      "id": "42806254",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=42806254",
+      "original_title": "Show HN: Helicone (YC W23) – OSS LLM Observability and Development Platform",
+      "problem_statement": "Show HN: Helicone (YC W23) – OSS LLM Observability and Development Platform - Show HN: Helicone (YC W23) – OSS LLM Observability and Development Platform Hey HN, we&#x27;re Justin and Cole, the founders of Helicone (<a href=\"htt...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "anthropic"
+      ],
+      "matched_keywords": [
+        "bug",
+        "issue",
+        "problem",
+        "missing",
+        "lack",
+        "bill",
+        "hard to"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 29,
+        "comments": 7
+      },
+      "author": "justintorre75",
+      "created_at": "2025-01-23T17:58:41Z",
+      "extracted_at": "2026-01-17T12:55:43.204840",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 5.6,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 31.1
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "anthropic"
+    },
+    {
+      "id": "40773201",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=40773201",
+      "original_title": "Show HN: Bodhi App – Run Open Source/Weights HuggingFace LLMs Locally",
+      "problem_statement": "Show HN: Bodhi App – Run Open Source/Weights HuggingFace LLMs Locally - Show HN: Bodhi App – Run Open Source/Weights HuggingFace LLMs Locally Hi HN,<p>I&#x27;m excited to share Bodhi App, a tool designed to simplify runnin...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "anthropic"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "documentation",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 21,
+        "comments": 13
+      },
+      "author": "anagri",
+      "created_at": "2024-06-24T07:02:50Z",
+      "extracted_at": "2026-01-17T12:55:45.114392",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 5.6,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 31.1
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "huggingface"
+    },
+    {
+      "id": "35056499",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=35056499",
+      "original_title": "Show HN: YoBulk AI – Open Source React SDK for data cleansing",
+      "problem_statement": "Show HN: YoBulk AI – Open Source React SDK for data cleansing - Show HN: YoBulk AI – Open Source React SDK for data cleansing Hey Everyone,<p>We are excited to show YoBulk AI <a href=\"https:&#x2F;&#x2F;github.com&#...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "gpt",
+        "make",
+        "docker"
+      ],
+      "matched_keywords": [
+        "error",
+        "issue",
+        "problem",
+        "missing",
+        "lack",
+        "difficult",
+        "alternative"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 20,
+        "comments": 13
+      },
+      "author": "yochin",
+      "created_at": "2023-03-07T15:37:54Z",
+      "extracted_at": "2026-01-17T12:55:22.283987",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 5.5,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 31.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "openai"
+    },
+    {
+      "id": "40775127",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=40775127",
+      "original_title": "Show HN: I Built a Tool to Break Free from YouTube's Addictive Algorithm",
+      "problem_statement": "Show HN: I Built a Tool to Break Free from YouTube's Addictive Algorithm - Show HN: I Built a Tool to Break Free from YouTube's Addictive Algorithm I built Watchlist to solve a problem that&#x27;s been nagging at me (and I su...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "make",
+        "supabase"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "cannot",
+        "lack"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 19,
+        "comments": 15
+      },
+      "author": "sarmadgulzar",
+      "created_at": "2024-06-24T12:17:01Z",
+      "extracted_at": "2026-01-17T12:55:35.026159",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 5.4,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 30.9
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "supabase"
+    },
+    {
+      "id": "39757713",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=39757713",
+      "original_title": "Show HN: Track your calories easily by saying what you ate",
+      "problem_statement": "Show HN: Track your calories easily by saying what you ate - Show HN: Track your calories easily by saying what you ate Hi guys,<p>I created this app to solve one of my own problems: I found calorie tracking to ...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 17,
+        "comments": 16
+      },
+      "author": "paul_brook",
+      "created_at": "2024-03-19T16:51:50Z",
+      "extracted_at": "2026-01-17T12:55:22.283987",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 5.1,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 30.6
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "openai"
+    },
+    {
+      "id": "46616562",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=46616562",
+      "original_title": "Show HN: Nori CLI, a better interface for Claude Code (no flicker)",
+      "problem_statement": "Show HN: Nori CLI, a better interface for Claude Code (no flicker) - Show HN: Nori CLI, a better interface for Claude Code (no flicker) Hi HN, my name&#x27;s Clifford and I&#x27;m one of the creators of Nori. I’ve been ...",
+      "category": "Authentication",
+      "tools_mentioned": [
+        "claude",
+        "anthropic",
+        "make"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "limitation"
+      ],
+      "pain_score": 8,
+      "engagement": {
+        "reactions": 36,
+        "comments": 8
+      },
+      "author": "csressel",
+      "created_at": "2026-01-14T14:40:51Z",
+      "extracted_at": "2026-01-17T12:55:26.995845",
+      "opportunity_score": {
+        "pain": 8,
+        "pervasiveness": 6.1,
+        "proximity": 7.5,
+        "payment": 5.0,
+        "plausibility": 4,
+        "total": 30.6
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "claude"
+    },
+    {
+      "id": "35684032",
+      "source": "hackernews",
+      "type": "comment",
+      "url": "https://news.ycombinator.com/item?id=35684032",
+      "original_title": "Comment on: Teach at a Community College",
+      "problem_statement": "Comment on: Teach at a Community College - US-based community college is mostly just a bait and switch fraud. There inevitably are weed-out classes where you can be weeded out of programs or co...",
+      "category": "Documentation",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "failed",
+        "issue",
+        "problem",
+        "limited",
+        "lack",
+        "need"
+      ],
+      "pain_score": 8,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "than3",
+      "created_at": "2023-04-24T05:40:09Z",
+      "extracted_at": "2026-01-17T12:55:54.461263",
+      "opportunity_score": {
+        "pain": 8,
+        "pervasiveness": 1.0,
+        "proximity": 7.5,
+        "payment": 5.0,
+        "plausibility": 9,
+        "total": 30.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "pipedream"
+    },
+    {
+      "id": "44531136",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=44531136",
+      "original_title": "Ask HN: What's blocking your AI agents from moving beyond proof-of-concept?",
+      "problem_statement": "Ask HN: What's blocking your AI agents from moving beyond proof-of-concept? - Ask HN: What's blocking your AI agents from moving beyond proof-of-concept? We’ve been working on decision automation tech that’s mostly been used in ...",
+      "category": "Data/State",
+      "tools_mentioned": [
+        "langchain",
+        "make",
+        "autogen"
+      ],
+      "matched_keywords": [
+        "fails",
+        "bug",
+        "issue",
+        "problem",
+        "limited",
+        "missing",
+        "hard to"
+      ],
+      "pain_score": 7,
+      "engagement": {
+        "reactions": 1,
+        "comments": 1
+      },
+      "author": "ns-148",
+      "created_at": "2025-07-11T11:58:39Z",
+      "extracted_at": "2026-01-17T12:55:13.669864",
+      "opportunity_score": {
+        "pain": 7,
+        "pervasiveness": 1.4,
+        "proximity": 7.5,
+        "payment": 7.0,
+        "plausibility": 6.0,
+        "total": 28.9
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "langchain"
+    },
+    {
+      "id": "44531136",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=44531136",
+      "original_title": "Ask HN: What's blocking your AI agents from moving beyond proof-of-concept?",
+      "problem_statement": "Ask HN: What's blocking your AI agents from moving beyond proof-of-concept? - Ask HN: What's blocking your AI agents from moving beyond proof-of-concept? We’ve been working on decision automation tech that’s mostly been used in ...",
+      "category": "Data/State",
+      "tools_mentioned": [
+        "langchain",
+        "make",
+        "autogen"
+      ],
+      "matched_keywords": [
+        "fails",
+        "bug",
+        "issue",
+        "problem",
+        "limited",
+        "missing",
+        "hard to"
+      ],
+      "pain_score": 7,
+      "engagement": {
+        "reactions": 1,
+        "comments": 1
+      },
+      "author": "ns-148",
+      "created_at": "2025-07-11T11:58:39Z",
+      "extracted_at": "2026-01-17T12:55:46.736528",
+      "opportunity_score": {
+        "pain": 7,
+        "pervasiveness": 1.4,
+        "proximity": 7.5,
+        "payment": 7.0,
+        "plausibility": 6.0,
+        "total": 28.9
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "autogen"
+    },
+    {
+      "id": "44531136",
+      "source": "hackernews",
+      "type": "story",
+      "url": "https://news.ycombinator.com/item?id=44531136",
+      "original_title": "Ask HN: What's blocking your AI agents from moving beyond proof-of-concept?",
+      "problem_statement": "Ask HN: What's blocking your AI agents from moving beyond proof-of-concept? - Ask HN: What's blocking your AI agents from moving beyond proof-of-concept? We’ve been working on decision automation tech that’s mostly been used in ...",
+      "category": "Data/State",
+      "tools_mentioned": [
+        "langchain",
+        "make",
+        "autogen"
+      ],
+      "matched_keywords": [
+        "fails",
+        "bug",
+        "issue",
+        "problem",
+        "limited",
+        "missing",
+        "hard to"
+      ],
+      "pain_score": 7,
+      "engagement": {
+        "reactions": 1,
+        "comments": 1
+      },
+      "author": "ns-148",
+      "created_at": "2025-07-11T11:58:39Z",
+      "extracted_at": "2026-01-17T12:55:48.043876",
+      "opportunity_score": {
+        "pain": 7,
+        "pervasiveness": 1.4,
+        "proximity": 7.5,
+        "payment": 7.0,
+        "plausibility": 6.0,
+        "total": 28.9
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "crewai"
+    },
+    {
+      "id": "44916676",
+      "source": "hackernews",
+      "type": "comment",
+      "url": "https://news.ycombinator.com/item?id=44916676",
+      "original_title": "Comment on: Ask HN: How are you scaling AI agents reliably in production?",
+      "problem_statement": "Comment on: Ask HN: How are you scaling AI agents reliably in production? - I&#x27;m using LangGraph for my app which is an AI ecommerce analyst with multiple modes (report builder, and chatbot). It consumes API data and visit...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "langchain",
+        "langgraph",
+        "gpt",
+        "make"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "rate limit",
+        "documentation",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "prohobo",
+      "created_at": "2025-08-15T19:53:26Z",
+      "extracted_at": "2026-01-17T12:55:13.670978",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 1.0,
+        "proximity": 7.5,
+        "payment": 8.0,
+        "plausibility": 6,
+        "total": 28.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "langchain"
+    },
+    {
+      "id": "40069540",
+      "source": "hackernews",
+      "type": "comment",
+      "url": "https://news.ycombinator.com/item?id=40069540",
+      "original_title": "Comment on: Embeddings are a good starting point for the AI curious app developer",
+      "problem_statement": "Comment on: Embeddings are a good starting point for the AI curious app developer - Re storing vectors in BLOB columns: ya, if it&#x27;s not a lot of data and it&#x27;s fast enough for you, then there&#x27;s no problem doing it like t...",
+      "category": "Documentation",
+      "tools_mentioned": [
+        "openai",
+        "make"
+      ],
+      "matched_keywords": [
+        "issue",
+        "problem",
+        "slow",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "alexgarcia-xyz",
+      "created_at": "2024-04-17T20:10:35Z",
+      "extracted_at": "2026-01-17T12:55:45.114392",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 1.0,
+        "proximity": 7.5,
+        "payment": 5.0,
+        "plausibility": 9,
+        "total": 28.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "huggingface"
+    },
+    {
+      "id": "31288298",
+      "source": "hackernews",
+      "type": "comment",
+      "url": "https://news.ycombinator.com/item?id=31288298",
+      "original_title": "Comment on: GraphQL Is a Trap?",
+      "problem_statement": "Comment on: GraphQL Is a Trap? - Here&#x27;s a list of every advantage I&#x27;ve heard about GraphQL. All of these advantages were used as evidence to push a transition internally at ...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "make",
+        "dify"
+      ],
+      "matched_keywords": [
+        "hate",
+        "broken",
+        "broke",
+        "issue",
+        "problem",
+        "expensive",
+        "slow",
+        "complicated",
+        "difficult",
+        "unclear",
+        "documentation",
+        "need"
+      ],
+      "pain_score": 8,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "015a",
+      "created_at": "2022-05-06T18:24:14Z",
+      "extracted_at": "2026-01-17T12:55:46.736528",
+      "opportunity_score": {
+        "pain": 8,
+        "pervasiveness": 1.0,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 28.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "autogen"
+    },
+    {
+      "id": "42744173",
+      "source": "hackernews",
+      "type": "comment",
+      "url": "https://news.ycombinator.com/item?id=42744173",
+      "original_title": "Comment on: Why is homeschooling becoming fashionable?",
+      "problem_statement": "Comment on: Why is homeschooling becoming fashionable? - &gt; But your insistence on assigning this behavior to some political side is, frankly, frightening.<p>You mistake this being political, and I did not...",
+      "category": "Documentation",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "fails",
+        "failing",
+        "error",
+        "issue",
+        "problem",
+        "need"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "trod1234",
+      "created_at": "2025-01-17T23:04:41Z",
+      "extracted_at": "2026-01-17T12:55:54.445092",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 1.0,
+        "proximity": 7.5,
+        "payment": 5.0,
+        "plausibility": 9,
+        "total": 28.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "pipedream"
+    },
+    {
+      "id": "13343468",
+      "source": "hackernews",
+      "type": "comment",
+      "url": "https://news.ycombinator.com/item?id=13343468",
+      "original_title": "Comment on: Show HN: Thirty Bees – A PrestaShop 1.6 fork",
+      "problem_statement": "Comment on: Show HN: Thirty Bees – A PrestaShop 1.6 fork - I have been working with Magento CE 1.x for several years now. I have spent at least a hundred hours inside the debugger carefully stepping through th...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "hate",
+        "broken",
+        "breaks",
+        "broke",
+        "error",
+        "bug",
+        "issue",
+        "problem",
+        "cannot",
+        "need",
+        "alternative"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "DCoder",
+      "created_at": "2017-01-07T11:00:52Z",
+      "extracted_at": "2026-01-17T12:55:54.445092",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 1.0,
+        "proximity": 7.5,
+        "payment": 8.0,
+        "plausibility": 6,
+        "total": 28.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "pipedream"
+    },
+    {
+      "id": "10574967",
+      "source": "hackernews",
+      "type": "comment",
+      "url": "https://news.ycombinator.com/item?id=10574967",
+      "original_title": "Comment on: Why We Use OCaml",
+      "problem_statement": "Comment on: Why We Use OCaml - Here is how I handle this at my company. LibreS3 is a product written in pure OCaml [1], using as a backend a cluster running Skylable SX (written in ...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "make",
+        "docker"
+      ],
+      "matched_keywords": [
+        "bug",
+        "issue",
+        "problem",
+        "complicated",
+        "need",
+        "looking for"
+      ],
+      "pain_score": 7,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "edwintorok",
+      "created_at": "2015-11-16T15:34:11Z",
+      "extracted_at": "2026-01-17T12:55:46.752305",
+      "opportunity_score": {
+        "pain": 7,
+        "pervasiveness": 1.0,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 27.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "autogen"
+    },
+    {
+      "id": "23529981",
+      "source": "hackernews",
+      "type": "comment",
+      "url": "https://news.ycombinator.com/item?id=23529981",
+      "original_title": "Comment on: Tensorflow.js: Machine Learning in JavaScript",
+      "problem_statement": "Comment on: Tensorflow.js: Machine Learning in JavaScript - I was playing with tf.js last year and there were some core components still being converted to WASM, which gave me some big performance boosts once I...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "gpt"
+      ],
+      "matched_keywords": [
+        "bug",
+        "issue",
+        "problem"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 0,
+        "comments": 0
+      },
+      "author": "ijpsud",
+      "created_at": "2020-06-15T17:18:11Z",
+      "extracted_at": "2026-01-17T12:55:45.114392",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 1.0,
+        "proximity": 7.5,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 26.5
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "search_tool": "huggingface"
+    }
+  ]
+}

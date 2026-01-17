@@ -1,0 +1,1087 @@
+{
+  "research_completed_at": "2026-01-17T17:27:53.408188",
+  "keywords_file": "research_keywords.json",
+  "total_keywords": 6,
+  "keyword_summary": {
+    "n8n workflow breaks": {
+      "total_posts": 5,
+      "problems_found": 2,
+      "opportunities_found": 2,
+      "top_opportunity_score": 32.0
+    },
+    "Make.com debugging issues": {
+      "total_posts": 5,
+      "problems_found": 3,
+      "opportunities_found": 3,
+      "top_opportunity_score": 34.0
+    },
+    "Zapier rate limit problem": {
+      "total_posts": 5,
+      "problems_found": 5,
+      "opportunities_found": 5,
+      "top_opportunity_score": 32.0
+    },
+    "Zapier automation unreliable": {
+      "total_posts": 5,
+      "problems_found": 2,
+      "opportunities_found": 2,
+      "top_opportunity_score": 27.4
+    },
+    "Zapier vs n8n problems": {
+      "total_posts": 5,
+      "problems_found": 4,
+      "opportunities_found": 4,
+      "top_opportunity_score": 33.0
+    },
+    "copilot issues with model limit": {
+      "total_posts": 5,
+      "problems_found": 4,
+      "opportunities_found": 4,
+      "top_opportunity_score": 29.0
+    }
+  },
+  "total_opportunities": 20,
+  "top_10_opportunities": [
+    {
+      "id": "1m2qkjn",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/homeassistant/comments/1m2qkjn/my_ai_actually_remembers_my_entire_home_assistant/",
+      "original_title": "My AI actually remembers my entire Home Assistant setup and debugs issues as I direct. Here's an example of how it works.",
+      "problem_statement": "My AI actually remembers my entire Home Assistant setup and debugs issues as I direct. Here's an example of how it works. I posted about this the other day but didn't get any uptake. Maybe providing a",
+      "full_text": "My AI actually remembers my entire Home Assistant setup and debugs issues as I direct. Here's an example of how it works. I posted about this the other day but didn't get any uptake. Maybe providing an example of the system in action will help explain. It's just... amazing.\n\n**TL;DR**: I found a way to give Claude persistent memory of my Home Assistant setup. It took me about a day and cost less than $10 (even with missteps). My system now comprehensively knows my HA configuration, automatically updates its knowledge when I make changes, and provides expert debugging help. This isn't just another chatbot. It actual",
+      "category": "Documentation",
+      "tools_mentioned": [
+        "claude",
+        "make"
+      ],
+      "matched_keywords": [
+        "bug",
+        "issue"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 156,
+        "comments": 91
+      },
+      "author": "musictechgeek",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:05.998548",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 9,
+        "total": 34.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Make.com debugging issues"
+    },
+    {
+      "id": "1lgslmo",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1lgslmo/ok_so_you_want_to_build_your_first_ai_agent_but/",
+      "original_title": "Ok so you want to build your first AI agent but don't know where to start? Here's exactly what I did (step by step)",
+      "problem_statement": "After building like 15 different agents (some failed spectacularly lol), here's the exact path I wish someone told me from day one:\n\n**Step 1: Stop overthinking the tech stack**  \nEveryone obsesses over LangChain vs CrewAI vs whatever",
+      "full_text": "Ok so you want to build your first AI agent but don't know where to start? Here's exactly what I did (step by step) Alright so like a year ago I was exactly where most of you probably are right now - knew ChatGPT was cool, heard about \"AI agents\" everywhere, but had zero clue how to actually build one that does real stuff.\n\nAfter building like 15 different agents (some failed spectacularly lol), here's the exact path I wish someone told me from day one:\n\n**Step 1: Stop overthinking the tech stack**  \nEveryone obsesses over LangChain vs CrewAI vs whatever. Just pick one and stick with it for your first agent. ",
+      "category": "General",
+      "tools_mentioned": [
+        "langchain",
+        "gpt"
+      ],
+      "matched_keywords": [
+        "hate",
+        "failed",
+        "wish"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 309,
+        "comments": 54
+      },
+      "author": "soul_eater0001",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:41.323783",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 33.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier vs n8n problems"
+    },
+    {
+      "id": "1lg6oxt",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/n8n/comments/1lg6oxt/i_built_a_bot_that_reads_100page_documents_for_me/",
+      "original_title": "I built a bot that reads 100-page documents for me. Here's the n8n workflow.",
+      "problem_statement": "I built a bot that reads 100-page documents for me. Here's the n8n workflow. We've all faced this problem: you have a long article, a meeting transcript, or a dense report that you need the key insigh",
+      "full_text": "I built a bot that reads 100-page documents for me. Here's the n8n workflow. We've all faced this problem: you have a long article, a meeting transcript, or a dense report that you need the key insights from, but it's too long to read. Even worse, it's too long to fit into a single AI prompt. This guide provides a step-by-step framework to build a \"summarization chain\" in n8n that solves this problem.\n\nThe Lesson: What is a Summarization Chain?\n\nA summarization chain is a workflow that intelligently handles large texts by breaking the process down:\n\nSplit: It first split",
+      "category": "UX/Workflow",
+      "tools_mentioned": [
+        "n8n"
+      ],
+      "matched_keywords": [
+        "problem",
+        "need"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 340,
+        "comments": 35
+      },
+      "author": "Legitimate_Fee_8449",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:26:52.622081",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 7,
+        "total": 32.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "n8n workflow breaks"
+    },
+    {
+      "id": "1pkr2ie",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/PHP/comments/1pkr2ie/building_a_productionready_webhook_system_for/",
+      "original_title": "Building a Production-Ready Webhook System for Laravel",
+      "problem_statement": "Building a Production-Ready Webhook System for Laravel **A deep dive into security, reliability, and extensibility decisions**\n\nWhen I started building [FilaForms](https://filaforms.app/), a customer-",
+      "full_text": "Building a Production-Ready Webhook System for Laravel **A deep dive into security, reliability, and extensibility decisions**\n\nWhen I started building [FilaForms](https://filaforms.app/), a customer-facing form builder for Filament PHP, webhooks seemed straightforward. User submits form, I POST JSON to a URL. Done.\n\nThen I started thinking about edge cases. What if the endpoint is down? What if someone points the webhook at `localhost`? How do consumers verify the request actually came from my system? What happens when I want to add Slack notificat",
+      "category": "API Integration",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "lack"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 181,
+        "comments": 20
+      },
+      "author": "Local-Comparison-One",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 8.0,
+        "plausibility": 6,
+        "total": 32.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1hhav62",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/3Dprinting/comments/1hhav62/leave_a_comment_to_win_the_unannounced_2025_bambu/",
+      "original_title": "Leave A Comment To Win The Unannounced 2025 Bambu Lab 3D Printer & Other Prizes - OctoEverywhere is 5! 🔥",
+      "problem_statement": "Leave A Comment To Win The Unannounced 2025 Bambu Lab 3D Printer & Other Prizes - OctoEverywhere is 5! 🔥 It feels unbelievable to write this, but [OctoEverywhere ](https://octoeverywhere.com/?source=r",
+      "full_text": "Leave A Comment To Win The Unannounced 2025 Bambu Lab 3D Printer & Other Prizes - OctoEverywhere is 5! 🔥 It feels unbelievable to write this, but [OctoEverywhere ](https://octoeverywhere.com/?source=reddit_5y)is 5 years old! If you haven't tried OctoEverywhere in a while, here's what you're missing:\n\n* 🚀 **Free & Unlimited** Full Remote Access\n* 🤖 **Free & Unlimited** Advanced AI Print Failure Detection\n* 📺 **Free** 30FPS Webcam Streaming\n* 📱 App Support for Mobileraker, OctoApp, & More\n* 🔔 Print Notifications to SMS, Mobile Push, Telegram, Discord, Email, & More\n* 🧵 Spoolman & OctoFarm Remote Acce",
+      "category": "General",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "limited",
+        "missing"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 8483,
+        "comments": 32869
+      },
+      "author": "quinbd",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:05.998548",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 31.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Make.com debugging issues"
+    },
+    {
+      "id": "1o3tnnv",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1o3tnnv/ive_been_in_the_aiautomation_space_since_2022/",
+      "original_title": "I’ve been in the AI/automation space since 2022. Most of you won’t make it",
+      "problem_statement": "Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even years) and at worst, give you insights you won’t fin",
+      "full_text": "I’ve been in the AI/automation space since 2022. Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even years) and at worst, give you insights you won’t find anywhere else.\n\nAnd no, this isn’t one of those “how I scaled my agency to \\[insert big number\\] in X months” or “things I wish I knew before I started” posts that end up being covert promotions. I have nothing to sell.\n\nJust a guy who’s been in the AI agency space since th",
+      "category": "General",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "worst",
+        "wish"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 900,
+        "comments": 254
+      },
+      "author": "Shivam5483",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 31.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1p1iazj",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/n8n/comments/1p1iazj/ive_been_in_the_aiautomation_space_since_2022/",
+      "original_title": "I’ve been in the AI/automation space since 2022. Most of you won’t make it",
+      "problem_statement": "Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even years) and at worst, give you insights you won’t fin",
+      "full_text": "I’ve been in the AI/automation space since 2022. Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even years) and at worst, give you insights you won’t find anywhere else.\n\nAnd no, this isn’t one of those “how I scaled my agency to \\[insert big number\\] in X months” or “things I wish I knew before I started” posts that end up being covert promotions. I have nothing to sell.\n\nJust a guy who’s been in the AI agency space since th",
+      "category": "General",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "worst",
+        "wish"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 508,
+        "comments": 116
+      },
+      "author": "Fit-Quantity-2260",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 31.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1m6pvsg",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/LovedByCreators/comments/1m6pvsg/chatfuel_review_30_days_automating_dms_and_lead/",
+      "original_title": "Chatfuel review. 30 days automating DMs and lead funnels on Meta",
+      "problem_statement": "Chatfuel review. 30 days automating DMs and lead funnels on Meta Chatfuel is a chatbot automation tool built specifically for Facebook, Instagram, and WhatsApp. Over the course of 30 days, I built cus",
+      "full_text": "Chatfuel review. 30 days automating DMs and lead funnels on Meta Chatfuel is a chatbot automation tool built specifically for Facebook, Instagram, and WhatsApp. Over the course of 30 days, I built customer support flows, lead filters, and re-engagement sequences for three client accounts. It’s fast to set up, plays nice with Meta’s ecosystem, and doesn’t require coding, but there are still a few spots where it needs polish, especially if you're scaling across platforms or dealing with multiple languages.\n\n🤖 What Exactly Is Chatfuel?\n\nChatfuel is a no-code cha",
+      "category": "General",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "need"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 135,
+        "comments": 25
+      },
+      "author": "Forina_2-0",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 9.7,
+        "proximity": 6.0,
+        "payment": 7.0,
+        "plausibility": 6.0,
+        "total": 30.7
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1pmi6mb",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/n8n/comments/1pmi6mb/i_build_n8n_workflows_for_dozens_of_clients_heres/",
+      "original_title": "I build n8n workflows for dozens of clients. Here's what actually matters.",
+      "problem_statement": "I build n8n workflows for dozens of clients. Here's what actually matters. I've learned some valuable (and painful) lessons during my journey.   \n  \nFor context, I run an agency where we build n8n wor",
+      "full_text": "I build n8n workflows for dozens of clients. Here's what actually matters. I've learned some valuable (and painful) lessons during my journey.   \n  \nFor context, I run an agency where we build n8n workflows for dozens of clients. We're talking complex stuff – 5-10 subworkflows per automation, HTTP nodes calling APIs, AI agents, the whole nine yards.\n\nHere's what will save you (and your client relationships):\n\n**1. Turn the retries and error output on each node.**\n\nI know, sounds obvious. But n8n doesn't enable retries by default on nodes. And Trust me, APIs fail. Netwo",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "n8n"
+      ],
+      "matched_keywords": [
+        "error"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 287,
+        "comments": 43
+      },
+      "author": "Personal-Present9789",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:26:52.622081",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 10,
+        "proximity": 4.0,
+        "payment": 8.0,
+        "plausibility": 6,
+        "total": 30.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "n8n workflow breaks"
+    },
+    {
+      "id": "9bhhei",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/9bhhei/how_i_bootstrapped_from_079000_mrr_in_90_days_at/",
+      "original_title": "How I Bootstrapped from $0-79,000 MRR in 90 Days at age 22.",
+      "problem_statement": "How I Bootstrapped from $0-79,000 MRR in 90 Days at age 22. Welcome! I’m Nathan, a 22-year-old Serial Entrepreneur. This is my story of how I grew one of my companies from zero customers to 13,800 sig",
+      "full_text": "How I Bootstrapped from $0-79,000 MRR in 90 Days at age 22. Welcome! I’m Nathan, a 22-year-old Serial Entrepreneur. This is my story of how I grew one of my companies from zero customers to 13,800 sign ups, 3000 active users and $79,000 in monthly recurring revenue in less than 90 days.\n\n​\n\nSo just before I start here are a few facts:\n\n1. The Business was a SaaS Social Media Marketing Platform\n2. I was the sole member of the team; I had no employees or additional help\n3. The pricing started at €39 and came with a 3-day trial to test the service.\n4. I alr",
+      "category": "Cost/Pricing",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "pricing"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 332,
+        "comments": 204
+      },
+      "author": "FreeBeersRS",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 7.0,
+        "plausibility": 5,
+        "total": 30.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    }
+  ],
+  "all_opportunities": [
+    {
+      "id": "1m2qkjn",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/homeassistant/comments/1m2qkjn/my_ai_actually_remembers_my_entire_home_assistant/",
+      "original_title": "My AI actually remembers my entire Home Assistant setup and debugs issues as I direct. Here's an example of how it works.",
+      "problem_statement": "My AI actually remembers my entire Home Assistant setup and debugs issues as I direct. Here's an example of how it works. I posted about this the other day but didn't get any uptake. Maybe providing a",
+      "full_text": "My AI actually remembers my entire Home Assistant setup and debugs issues as I direct. Here's an example of how it works. I posted about this the other day but didn't get any uptake. Maybe providing an example of the system in action will help explain. It's just... amazing.\n\n**TL;DR**: I found a way to give Claude persistent memory of my Home Assistant setup. It took me about a day and cost less than $10 (even with missteps). My system now comprehensively knows my HA configuration, automatically updates its knowledge when I make changes, and provides expert debugging help. This isn't just another chatbot. It actual",
+      "category": "Documentation",
+      "tools_mentioned": [
+        "claude",
+        "make"
+      ],
+      "matched_keywords": [
+        "bug",
+        "issue"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 156,
+        "comments": 91
+      },
+      "author": "musictechgeek",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:05.998548",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 9,
+        "total": 34.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Make.com debugging issues"
+    },
+    {
+      "id": "1lgslmo",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1lgslmo/ok_so_you_want_to_build_your_first_ai_agent_but/",
+      "original_title": "Ok so you want to build your first AI agent but don't know where to start? Here's exactly what I did (step by step)",
+      "problem_statement": "After building like 15 different agents (some failed spectacularly lol), here's the exact path I wish someone told me from day one:\n\n**Step 1: Stop overthinking the tech stack**  \nEveryone obsesses over LangChain vs CrewAI vs whatever",
+      "full_text": "Ok so you want to build your first AI agent but don't know where to start? Here's exactly what I did (step by step) Alright so like a year ago I was exactly where most of you probably are right now - knew ChatGPT was cool, heard about \"AI agents\" everywhere, but had zero clue how to actually build one that does real stuff.\n\nAfter building like 15 different agents (some failed spectacularly lol), here's the exact path I wish someone told me from day one:\n\n**Step 1: Stop overthinking the tech stack**  \nEveryone obsesses over LangChain vs CrewAI vs whatever. Just pick one and stick with it for your first agent. ",
+      "category": "General",
+      "tools_mentioned": [
+        "langchain",
+        "gpt"
+      ],
+      "matched_keywords": [
+        "hate",
+        "failed",
+        "wish"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 309,
+        "comments": 54
+      },
+      "author": "soul_eater0001",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:41.323783",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 33.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier vs n8n problems"
+    },
+    {
+      "id": "1lg6oxt",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/n8n/comments/1lg6oxt/i_built_a_bot_that_reads_100page_documents_for_me/",
+      "original_title": "I built a bot that reads 100-page documents for me. Here's the n8n workflow.",
+      "problem_statement": "I built a bot that reads 100-page documents for me. Here's the n8n workflow. We've all faced this problem: you have a long article, a meeting transcript, or a dense report that you need the key insigh",
+      "full_text": "I built a bot that reads 100-page documents for me. Here's the n8n workflow. We've all faced this problem: you have a long article, a meeting transcript, or a dense report that you need the key insights from, but it's too long to read. Even worse, it's too long to fit into a single AI prompt. This guide provides a step-by-step framework to build a \"summarization chain\" in n8n that solves this problem.\n\nThe Lesson: What is a Summarization Chain?\n\nA summarization chain is a workflow that intelligently handles large texts by breaking the process down:\n\nSplit: It first split",
+      "category": "UX/Workflow",
+      "tools_mentioned": [
+        "n8n"
+      ],
+      "matched_keywords": [
+        "problem",
+        "need"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 340,
+        "comments": 35
+      },
+      "author": "Legitimate_Fee_8449",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:26:52.622081",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 7,
+        "total": 32.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "n8n workflow breaks"
+    },
+    {
+      "id": "1pkr2ie",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/PHP/comments/1pkr2ie/building_a_productionready_webhook_system_for/",
+      "original_title": "Building a Production-Ready Webhook System for Laravel",
+      "problem_statement": "Building a Production-Ready Webhook System for Laravel **A deep dive into security, reliability, and extensibility decisions**\n\nWhen I started building [FilaForms](https://filaforms.app/), a customer-",
+      "full_text": "Building a Production-Ready Webhook System for Laravel **A deep dive into security, reliability, and extensibility decisions**\n\nWhen I started building [FilaForms](https://filaforms.app/), a customer-facing form builder for Filament PHP, webhooks seemed straightforward. User submits form, I POST JSON to a URL. Done.\n\nThen I started thinking about edge cases. What if the endpoint is down? What if someone points the webhook at `localhost`? How do consumers verify the request actually came from my system? What happens when I want to add Slack notificat",
+      "category": "API Integration",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "lack"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 181,
+        "comments": 20
+      },
+      "author": "Local-Comparison-One",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 8.0,
+        "plausibility": 6,
+        "total": 32.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1hhav62",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/3Dprinting/comments/1hhav62/leave_a_comment_to_win_the_unannounced_2025_bambu/",
+      "original_title": "Leave A Comment To Win The Unannounced 2025 Bambu Lab 3D Printer & Other Prizes - OctoEverywhere is 5! 🔥",
+      "problem_statement": "Leave A Comment To Win The Unannounced 2025 Bambu Lab 3D Printer & Other Prizes - OctoEverywhere is 5! 🔥 It feels unbelievable to write this, but [OctoEverywhere ](https://octoeverywhere.com/?source=r",
+      "full_text": "Leave A Comment To Win The Unannounced 2025 Bambu Lab 3D Printer & Other Prizes - OctoEverywhere is 5! 🔥 It feels unbelievable to write this, but [OctoEverywhere ](https://octoeverywhere.com/?source=reddit_5y)is 5 years old! If you haven't tried OctoEverywhere in a while, here's what you're missing:\n\n* 🚀 **Free & Unlimited** Full Remote Access\n* 🤖 **Free & Unlimited** Advanced AI Print Failure Detection\n* 📺 **Free** 30FPS Webcam Streaming\n* 📱 App Support for Mobileraker, OctoApp, & More\n* 🔔 Print Notifications to SMS, Mobile Push, Telegram, Discord, Email, & More\n* 🧵 Spoolman & OctoFarm Remote Acce",
+      "category": "General",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "limited",
+        "missing"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 8483,
+        "comments": 32869
+      },
+      "author": "quinbd",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:05.998548",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 31.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Make.com debugging issues"
+    },
+    {
+      "id": "1o3tnnv",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1o3tnnv/ive_been_in_the_aiautomation_space_since_2022/",
+      "original_title": "I’ve been in the AI/automation space since 2022. Most of you won’t make it",
+      "problem_statement": "Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even years) and at worst, give you insights you won’t fin",
+      "full_text": "I’ve been in the AI/automation space since 2022. Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even years) and at worst, give you insights you won’t find anywhere else.\n\nAnd no, this isn’t one of those “how I scaled my agency to \\[insert big number\\] in X months” or “things I wish I knew before I started” posts that end up being covert promotions. I have nothing to sell.\n\nJust a guy who’s been in the AI agency space since th",
+      "category": "General",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "worst",
+        "wish"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 900,
+        "comments": 254
+      },
+      "author": "Shivam5483",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 31.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1p1iazj",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/n8n/comments/1p1iazj/ive_been_in_the_aiautomation_space_since_2022/",
+      "original_title": "I’ve been in the AI/automation space since 2022. Most of you won’t make it",
+      "problem_statement": "Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even years) and at worst, give you insights you won’t fin",
+      "full_text": "I’ve been in the AI/automation space since 2022. Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even years) and at worst, give you insights you won’t find anywhere else.\n\nAnd no, this isn’t one of those “how I scaled my agency to \\[insert big number\\] in X months” or “things I wish I knew before I started” posts that end up being covert promotions. I have nothing to sell.\n\nJust a guy who’s been in the AI agency space since th",
+      "category": "General",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "worst",
+        "wish"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 508,
+        "comments": 116
+      },
+      "author": "Fit-Quantity-2260",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 31.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1m6pvsg",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/LovedByCreators/comments/1m6pvsg/chatfuel_review_30_days_automating_dms_and_lead/",
+      "original_title": "Chatfuel review. 30 days automating DMs and lead funnels on Meta",
+      "problem_statement": "Chatfuel review. 30 days automating DMs and lead funnels on Meta Chatfuel is a chatbot automation tool built specifically for Facebook, Instagram, and WhatsApp. Over the course of 30 days, I built cus",
+      "full_text": "Chatfuel review. 30 days automating DMs and lead funnels on Meta Chatfuel is a chatbot automation tool built specifically for Facebook, Instagram, and WhatsApp. Over the course of 30 days, I built customer support flows, lead filters, and re-engagement sequences for three client accounts. It’s fast to set up, plays nice with Meta’s ecosystem, and doesn’t require coding, but there are still a few spots where it needs polish, especially if you're scaling across platforms or dealing with multiple languages.\n\n🤖 What Exactly Is Chatfuel?\n\nChatfuel is a no-code cha",
+      "category": "General",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "need"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 135,
+        "comments": 25
+      },
+      "author": "Forina_2-0",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 9.7,
+        "proximity": 6.0,
+        "payment": 7.0,
+        "plausibility": 6.0,
+        "total": 30.7
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1pmi6mb",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/n8n/comments/1pmi6mb/i_build_n8n_workflows_for_dozens_of_clients_heres/",
+      "original_title": "I build n8n workflows for dozens of clients. Here's what actually matters.",
+      "problem_statement": "I build n8n workflows for dozens of clients. Here's what actually matters. I've learned some valuable (and painful) lessons during my journey.   \n  \nFor context, I run an agency where we build n8n wor",
+      "full_text": "I build n8n workflows for dozens of clients. Here's what actually matters. I've learned some valuable (and painful) lessons during my journey.   \n  \nFor context, I run an agency where we build n8n workflows for dozens of clients. We're talking complex stuff – 5-10 subworkflows per automation, HTTP nodes calling APIs, AI agents, the whole nine yards.\n\nHere's what will save you (and your client relationships):\n\n**1. Turn the retries and error output on each node.**\n\nI know, sounds obvious. But n8n doesn't enable retries by default on nodes. And Trust me, APIs fail. Netwo",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "n8n"
+      ],
+      "matched_keywords": [
+        "error"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 287,
+        "comments": 43
+      },
+      "author": "Personal-Present9789",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:26:52.622081",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 10,
+        "proximity": 4.0,
+        "payment": 8.0,
+        "plausibility": 6,
+        "total": 30.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "n8n workflow breaks"
+    },
+    {
+      "id": "9bhhei",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/9bhhei/how_i_bootstrapped_from_079000_mrr_in_90_days_at/",
+      "original_title": "How I Bootstrapped from $0-79,000 MRR in 90 Days at age 22.",
+      "problem_statement": "How I Bootstrapped from $0-79,000 MRR in 90 Days at age 22. Welcome! I’m Nathan, a 22-year-old Serial Entrepreneur. This is my story of how I grew one of my companies from zero customers to 13,800 sig",
+      "full_text": "How I Bootstrapped from $0-79,000 MRR in 90 Days at age 22. Welcome! I’m Nathan, a 22-year-old Serial Entrepreneur. This is my story of how I grew one of my companies from zero customers to 13,800 sign ups, 3000 active users and $79,000 in monthly recurring revenue in less than 90 days.\n\n​\n\nSo just before I start here are a few facts:\n\n1. The Business was a SaaS Social Media Marketing Platform\n2. I was the sole member of the team; I had no employees or additional help\n3. The pricing started at €39 and came with a 3-day trial to test the service.\n4. I alr",
+      "category": "Cost/Pricing",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "pricing"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 332,
+        "comments": 204
+      },
+      "author": "FreeBeersRS",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:17.054355",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 7.0,
+        "plausibility": 5,
+        "total": 30.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately",
+      "research_keyword": "Zapier rate limit problem"
+    },
+    {
+      "id": "1je90av",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/godot/comments/1je90av/how_to_protect_your_godot_game_from_being_stolen/",
+      "original_title": "How to Protect Your Godot game from Being Stolen",
+      "problem_statement": "How to Protect Your Godot game from Being Stolen # Intro\nDespite the loud title, there’s no 100% way to prevent your game from being stolen, but there are ways to make reverse-engineering harder.\nFor ",
+      "full_text": "How to Protect Your Godot game from Being Stolen # Intro\nDespite the loud title, there’s no 100% way to prevent your game from being stolen, but there are ways to make reverse-engineering harder.\nFor me, this is personal - our free game was uploaded to the App Store by someone else, who set a $3 price and made $60,000 gross revenue before I could resolve legal issues with Apple. After that, I decided to at least make it harder for someone to steal my work.\n# How to Decompile Godot Games\nActually, it’s pretty easy.\nThe most common tool for this",
+      "category": "General",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "issue"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 2717,
+        "comments": 419
+      },
+      "author": "VoltekPlay",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:05.998548",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 29.0
+      },
+      "recommendation": "✅ GOOD OPPORTUNITY - Worth exploring further",
+      "research_keyword": "Make.com debugging issues"
+    },
+    {
+      "id": "1q4itap",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1q4itap/january_microsoft_365_changes_admins_should_know/",
+      "original_title": "January Microsoft 365 Changes Admins Should Know",
+      "problem_statement": "January Microsoft 365 Changes Admins Should Know New year, new Microsoft 365 changes! January is packed with **30+** impactful updates, including feature rollouts, retirements, and behavior changes th",
+      "full_text": "January Microsoft 365 Changes Admins Should Know New year, new Microsoft 365 changes! January is packed with **30+** impactful updates, including feature rollouts, retirements, and behavior changes that could affect your environment. Here’s what admins need to know as 2026 kicks off. \n\n**In the Spotlight:** \n\n* **Retirement of Activity-Based Authentication Timeout in OWA:** The activity-based sign-out feature that logged users out after inactivity is being retired. Admins should switch to *Idle session timeout* to maintain similar session cont",
+      "category": "Authentication",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "timeout",
+        "need"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 797,
+        "comments": 69
+      },
+      "author": "Shan_1130",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:53.408188",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 4,
+        "total": 29.0
+      },
+      "recommendation": "✅ GOOD OPPORTUNITY - Worth exploring further",
+      "research_keyword": "copilot issues with model limit"
+    },
+    {
+      "id": "1pfu3xr",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/buildinpublic/comments/1pfu3xr/the_selfish_reason_i_built_this_i_wanted_to_run_a/",
+      "original_title": "the selfish reason I built this: I wanted to run a 10-person company with 2 people.",
+      "problem_statement": "I looked at the market:\n\n* Zapier/n8n: Great, but I hate spending hours connecting dots and debugging JSON errors",
+      "full_text": "the selfish reason I built this: I wanted to run a 10-person company with 2 people. my honest truth - I didn't build Kadabra for you... I built it for me.\n\nI was drowning in ops, marketing sequences, CRM data enrichment, lead qualification, content distribution. I was spending 50% of my week acting as a \"human API,\" manually moving data between tools.\n\nI looked at the market:\n\n* Zapier/n8n: Great, but I hate spending hours connecting dots and debugging JSON errors. I’m a founder, not a plumber.\n* AI Agents: Cool demo, but unreliable... I can’t let a black box run my company.\n\nI",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "n8n",
+        "zapier"
+      ],
+      "matched_keywords": [
+        "hate",
+        "error",
+        "bug",
+        "lack"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 1,
+        "comments": 0
+      },
+      "author": "No_Hyena5980",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:28.212709",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 1.4,
+        "proximity": 6.0,
+        "payment": 8.0,
+        "plausibility": 6,
+        "total": 27.4
+      },
+      "recommendation": "✅ GOOD OPPORTUNITY - Worth exploring further",
+      "research_keyword": "Zapier automation unreliable"
+    },
+    {
+      "id": "1pbdzoq",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/golang/comments/1pbdzoq/feedback_wanted_for_building_an_opensource/",
+      "original_title": "Feedback wanted for building an open-source lightweight workflow engine in Go",
+      "problem_statement": "Feedback wanted for building an open-source lightweight workflow engine in Go Hi gophers\n\nI'm considering building an open-source workflow engine in Go and would love your feedback before committing t",
+      "full_text": "Feedback wanted for building an open-source lightweight workflow engine in Go Hi gophers\n\nI'm considering building an open-source workflow engine in Go and would love your feedback before committing to this project.\n\nThe problem I try to solve :\n\nI kept running into situations where I needed simple, reliable background automation (scheduled emails, data syncs, etc.), but every solution required Docker, Redis, and tons of infrastructure overhead. It felt like overkill for small marketing/business tasks. A lot of my current production workflows for my clients involve very s",
+      "category": "Data/State",
+      "tools_mentioned": [
+        "docker"
+      ],
+      "matched_keywords": [
+        "problem",
+        "need"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 26,
+        "comments": 20
+      },
+      "author": "Basic-Oil-1180",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:41.330015",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 6.4,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 27.4
+      },
+      "recommendation": "✅ GOOD OPPORTUNITY - Worth exploring further",
+      "research_keyword": "Zapier vs n8n problems"
+    },
+    {
+      "id": "1chowzm",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/nocode/comments/1chowzm/for_ai_agents_forget_appsmith_buildship_n8n/",
+      "original_title": "For AI agents, forget Appsmith, Buildship, n8n, Retool, Zapier, Budibase, or coding your entire AI agent with OpenAI retriever plugin +/or Chroma DB/Weaviate/Pinecone; what you want is using no/low-code AI automation/agent platforms directly: AgentHub, VectorShift, RelevanceAI, StackAI, or Flowise?",
+      "problem_statement": "For AI agents, forget Appsmith, Buildship, n8n, Retool, Zapier, Budibase, or coding your entire AI agent with OpenAI retriever plugin +/or Chroma DB/Weaviate/Pinecone; what you want is using no/low-co",
+      "full_text": "For AI agents, forget Appsmith, Buildship, n8n, Retool, Zapier, Budibase, or coding your entire AI agent with OpenAI retriever plugin +/or Chroma DB/Weaviate/Pinecone; what you want is using no/low-code AI automation/agent platforms directly: AgentHub, VectorShift, RelevanceAI, StackAI, or Flowise? I made an initial mistake by thinking I needed to start with low-code tools such as Appsmith, Buildship (Rowy), Retool, n8n, Zapier, Budibase to leverage OpenAI API. Or even OpenAI official retriever plugin on GitHub. Or even coding full-stack apps using OpenAI API graphDBs such as Weaviate/Pinecone/Chroma.\n\nProblem: I tried them all, and whenever I spent time trying to set it up, the doc was incomplete, the instructions not clear, the API response time very long, and  oftentimes these platforms",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "n8n",
+        "zapier",
+        "flowise",
+        "pinecone",
+        "weaviate"
+      ],
+      "matched_keywords": [
+        "problem",
+        "need"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 7,
+        "comments": 14
+      },
+      "author": "Jade_Lauren",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:41.323783",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 3.8,
+        "proximity": 6.0,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 25.8
+      },
+      "recommendation": "✅ GOOD OPPORTUNITY - Worth exploring further",
+      "research_keyword": "Zapier vs n8n problems"
+    },
+    {
+      "id": "1pc8waf",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/aiagents/comments/1pc8waf/a_platform_that_can_help_you_with_production/",
+      "original_title": "A platform that can help you with : Production Grade AI Agents + Easy to Use + Simple Pricing - This is what you want right ?",
+      "problem_statement": "AI generates agents (not steps)** AI breaks it into modular agents:\n\n* Work",
+      "full_text": "A platform that can help you with : Production Grade AI Agents + Easy to Use + Simple Pricing - This is what you want right ? I got fed up with n8n, Make, and Zapier. They're either:\n\n* Too complex (endless node dragging)\n* Unreliable (black box failures)\n* Expensive with confusing pricing\n\nSo I'm building an **agent-based workflow automator** where AI does the heavy lifting, but you stay in control.\n\n**How it works:**\n\n**1. Describe your workflow** You: \"Automate employee onboarding\" AI: Rewrites it with technical precision → you approve\n\n**2. AI generates agents (not steps)** AI breaks it into modular agents:\n\n* Work",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "n8n",
+        "zapier",
+        "make"
+      ],
+      "matched_keywords": [
+        "breaks",
+        "lack",
+        "expensive",
+        "pricing",
+        "confusing"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 1,
+        "comments": 7
+      },
+      "author": "SignalPractical4526",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:28.212709",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 1.4,
+        "proximity": 6.0,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 25.4
+      },
+      "recommendation": "✅ GOOD OPPORTUNITY - Worth exploring further",
+      "research_keyword": "Zapier automation unreliable"
+    },
+    {
+      "id": "1ict99p",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/MicrosoftEdge/comments/1ict99p/how_to_fix_copilot_issue_sorry_youve_reached_the/",
+      "original_title": "How to fix Copilot issue “Sorry, you've reached the limit of messages you can send to Bing within 24 hours” in the Edge for IPhone?",
+      "problem_statement": "How to fix Copilot issue “Sorry, you've reached the limit of messages you can send to Bing within 24 hours” in the Edge for IPhone?",
+      "full_text": "How to fix Copilot issue “Sorry, you've reached the limit of messages you can send to Bing within 24 hours” in the Edge for IPhone? How to fix Copilot issue “Sorry, you've reached the limit of messages you can send to Bing within 24 hours” in the app “Edge Browser” for IPhone?\nI tried signing out, creating new account, VPN, clearing browser cache and history, reinstalling the app, nothing works. Please note I did not chat with Bing AI in the last 24 hours.\nI am afraid it can be due to older version of Edge browser but I can’t install on my IPhone the newer app version because it doesn’t support older IPhone models. Please do",
+      "category": "Configuration",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "issue"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 1,
+        "comments": 3
+      },
+      "author": "Kvestiya",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:53.408188",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 1.4,
+        "proximity": 6.0,
+        "payment": 8.0,
+        "plausibility": 8,
+        "total": 25.4
+      },
+      "recommendation": "✅ GOOD OPPORTUNITY - Worth exploring further",
+      "research_keyword": "copilot issues with model limit"
+    },
+    {
+      "id": "1ict6xt",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/techsupport/comments/1ict6xt/how_to_fix_copilot_issue_sorry_youve_reached_the/",
+      "original_title": "How to fix Copilot issue “Sorry, you've reached the limit of messages you can send to Bing within 24 hours” in the Edge for IPhone?",
+      "problem_statement": "How to fix Copilot issue “Sorry, you've reached the limit of messages you can send to Bing within 24 hours” in the Edge for IPhone?",
+      "full_text": "How to fix Copilot issue “Sorry, you've reached the limit of messages you can send to Bing within 24 hours” in the Edge for IPhone? \n\nHow to fix Copilot issue “Sorry, you've reached the limit of messages you can send to Bing within 24 hours” in the app “Edge Browser” for IPhone?\nI tried signing out, creating new account, VPN, clearing browser cache and history, reinstalling the app, nothing works. Please note I did not chat with Bing AI in the last 24 hours.\nI am afraid it can be due to older version of Edge browser but I can’t install on my IPhone the newer app version because it doesn’t support older IPhone models. Please ",
+      "category": "Configuration",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "issue"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 0,
+        "comments": 1
+      },
+      "author": "Kvestiya",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:53.408188",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 1.0,
+        "proximity": 6.0,
+        "payment": 8.0,
+        "plausibility": 8,
+        "total": 25.0
+      },
+      "recommendation": "✅ GOOD OPPORTUNITY - Worth exploring further",
+      "research_keyword": "copilot issues with model limit"
+    },
+    {
+      "id": "1chp65f",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1chp65f/for_ai_agents_forget_appsmith_buildship_n8n/",
+      "original_title": "For AI agents, forget Appsmith, Buildship, n8n, Retool, Zapier, Budibase, or coding your entire AI agent with OpenAI retriever plugin +/or Chroma DB/Weaviate/Pinecone; what you want is using no/low-code AI automation/agent platforms directly: AgentHub, VectorShift, RelevanceAI, StackAI, or Flowise?",
+      "problem_statement": "For AI agents, forget Appsmith, Buildship, n8n, Retool, Zapier, Budibase, or coding your entire AI agent with OpenAI retriever plugin +/or Chroma DB/Weaviate/Pinecone; what you want is using no/low-co",
+      "full_text": "For AI agents, forget Appsmith, Buildship, n8n, Retool, Zapier, Budibase, or coding your entire AI agent with OpenAI retriever plugin +/or Chroma DB/Weaviate/Pinecone; what you want is using no/low-code AI automation/agent platforms directly: AgentHub, VectorShift, RelevanceAI, StackAI, or Flowise? Hey guys, I posted this in r/nocode but I thought you might have great inputs here as well. Cheers.\n\n----\n\n  \nI made an initial mistake by thinking I needed to start with low-code tools such as Appsmith, Buildship (Rowy), Retool, n8n, Zapier, Budibase to leverage OpenAI API. Or even OpenAI official retriever plugin on GitHub. Or even coding full-stack apps using OpenAI API graphDBs such as Weaviate/Pinecone/Chroma.\n\nProblem: I tried them all, and whenever I spent time trying to set it up, the do",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai",
+        "n8n",
+        "zapier",
+        "flowise",
+        "pinecone",
+        "weaviate"
+      ],
+      "matched_keywords": [
+        "problem",
+        "need"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 2,
+        "comments": 26
+      },
+      "author": "Jade_Lauren",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:41.323783",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 2.8,
+        "proximity": 6.0,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 24.8
+      },
+      "recommendation": "⚠️ MODERATE - Needs validation",
+      "research_keyword": "Zapier vs n8n problems"
+    },
+    {
+      "id": "1po2yym",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/GithubCopilot/comments/1po2yym/with_a_base_rate_of_39_for_1500_premium_requests/",
+      "original_title": "With a base rate of $39 for 1,500 premium requests and an additional $0.04 per request thereafter, GitHub Copilot Pro+ presents a pricing model that may feel costly relative to its usage limits.",
+      "problem_statement": "With a base rate of $39 for 1,500 premium requests and an additional $0.04 per request thereafter, GitHub Copilot Pro+ presents a pricing model that may feel costly relative to its usage limits. I am ",
+      "full_text": "With a base rate of $39 for 1,500 premium requests and an additional $0.04 per request thereafter, GitHub Copilot Pro+ presents a pricing model that may feel costly relative to its usage limits. I am currently looking at ways to access multiple language models, similar to the functionality offered by GitHub Copilot Pro+ within VS Code, but with a more flexible and accommodating request limit than the current cap of 1,500 premium requests, which often feels restrictive.\n\nMany platforms advertise comparable multi-model access, yet they frequently introduce additional costs beyond basic token usage, resulting in pricing structures that are complex and often lack transparency. The AI servic",
+      "category": "API Integration",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "lack",
+        "pricing"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 0,
+        "comments": 39
+      },
+      "author": "Mindless-Worker-1062",
+      "created_at": null,
+      "extracted_at": "2026-01-17T17:27:53.408188",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 2.0,
+        "proximity": 6.0,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 24.0
+      },
+      "recommendation": "⚠️ MODERATE - Needs validation",
+      "research_keyword": "copilot issues with model limit"
+    }
+  ]
+}

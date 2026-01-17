@@ -1,0 +1,41 @@
+{
+  "keyword": "rate limit issues OpenAI",
+  "searched_at": "2026-01-17T16:24:25.869383",
+  "raw_results": 3,
+  "problems_found": 1,
+  "opportunities": [
+    {
+      "id": "1mc4hx7",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/SaaS/comments/1mc4hx7/openai_api_rate_limit/",
+      "original_title": "Openai api rate limit",
+      "problem_statement": "Openai api rate limit - Openai api rate limit If my SaaS heavily relies on the OpenAI API, how can I solve the rate limit issue?...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "openai"
+      ],
+      "matched_keywords": [
+        "issue",
+        "rate limit"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 1,
+        "comments": 0
+      },
+      "author": "Background_Yam8293",
+      "created_at": null,
+      "extracted_at": "2026-01-17T16:24:25.869383",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 1.4,
+        "proximity": 6.0,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 23.4
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "keyword": "LLM usage tracking missing",
+  "searched_at": "2026-01-17T16:25:24.267150",
+  "raw_results": 1,
+  "problems_found": 1,
+  "opportunities": [
+    {
+      "id": "1q92a5o",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/aiagents/comments/1q92a5o/built_a_free_tool_to_track_llm_costs_across/",
+      "original_title": "Built a free tool to track LLM costs across OpenAI, Anthropic, Gemini, etc. (llmobserve.com)",
+      "problem_statement": "Built a free tool to track LLM costs across OpenAI, Anthropic, Gemini, etc. (llmobserve.com) - Built a free tool to track LLM costs across OpenAI, Anthropic, Gemini, etc. (llmobserve.com) Hello followers of this subreddit, I’ve been building [**...",
+      "category": "Cost/Pricing",
+      "tools_mentioned": [
+        "openai",
+        "anthropic"
+      ],
+      "matched_keywords": [
+        "cannot"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 5,
+        "comments": 4
+      },
+      "author": "Visible_Farm8636",
+      "created_at": null,
+      "extracted_at": "2026-01-17T16:25:24.266511",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 3.0,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 5,
+        "total": 21.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately"
+    }
+  ]
+}

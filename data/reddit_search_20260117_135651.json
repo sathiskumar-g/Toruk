@@ -1,0 +1,41 @@
+{
+  "searched_at": "2026-01-17T13:56:51.230935",
+  "problem_keyword": "I wish there was a tool for",
+  "raw_results": 3,
+  "problems_found": 1,
+  "opportunities": [
+    {
+      "id": "1o3tnnv",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1o3tnnv/ive_been_in_the_aiautomation_space_since_2022/",
+      "original_title": "I’ve been in the AI/automation space since 2022. Most of you won’t make it",
+      "problem_statement": "Most of you won’t make it It’ll be a long post, but if you’re considering starting (or have already started) an AI agency or something similar, this post could, at best, save you months (maybe even ye",
+      "category": "General",
+      "tools_mentioned": [
+        "make"
+      ],
+      "matched_keywords": [
+        "worst",
+        "wish"
+      ],
+      "pain_score": 4,
+      "engagement": {
+        "reactions": 896,
+        "comments": 254
+      },
+      "author": "Shivam5483",
+      "created_at": null,
+      "extracted_at": "2026-01-17T13:56:51.228066",
+      "opportunity_score": {
+        "pain": 4,
+        "pervasiveness": 10,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 31.0
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately"
+    }
+  ]
+}

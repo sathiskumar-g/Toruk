@@ -1,0 +1,74 @@
+{
+  "keyword": "rate limit issues AI API",
+  "searched_at": "2026-01-17T16:24:41.962785",
+  "raw_results": 2,
+  "problems_found": 2,
+  "opportunities": [
+    {
+      "id": "1m6k0wy",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1m6k0wy/release_nextt_a_selfhosted_plexpowered/",
+      "original_title": "[RELEASE] Nextt – A self-hosted Plex-powered recommendation dashboard (No AI, No SaaS, Just Your Server + Free APIs)",
+      "problem_statement": "[RELEASE] Nextt – A self-hosted Plex-powered recommendation dashboard (No AI, No SaaS, Just Your Server + Free APIs) - [RELEASE] Nextt – A self-hosted Plex-powered recommendation dashboard (No AI, No SaaS, Just Your Server + Free APIs) UPDATE NOW ON DOCKERHUB: https://...",
+      "category": "API Integration",
+      "tools_mentioned": [
+        "docker"
+      ],
+      "matched_keywords": [
+        "need"
+      ],
+      "pain_score": 2,
+      "engagement": {
+        "reactions": 63,
+        "comments": 67
+      },
+      "author": "TheyCallMeDozer",
+      "created_at": null,
+      "extracted_at": "2026-01-17T16:24:41.962785",
+      "opportunity_score": {
+        "pain": 2,
+        "pervasiveness": 8.3,
+        "proximity": 6.0,
+        "payment": 6.0,
+        "plausibility": 6,
+        "total": 28.3
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately"
+    },
+    {
+      "id": "1qehfd2",
+      "source": "reddit",
+      "type": "post",
+      "url": "https://www.reddit.com/r/SideProject/comments/1qehfd2/im_building_an_aipowered_seo_tool_that_actually/",
+      "original_title": "I'm building an AI-powered SEO tool that actually fixes issues (not just detects them). Here's what I learned so far.",
+      "problem_statement": "I'm building an AI-powered SEO tool that actually fixes issues (not just detects them). Here's what I learned so far.",
+      "category": "General",
+      "tools_mentioned": [],
+      "matched_keywords": [
+        "broken",
+        "broke",
+        "issue",
+        "problem",
+        "missing"
+      ],
+      "pain_score": 6,
+      "engagement": {
+        "reactions": 1,
+        "comments": 0
+      },
+      "author": "ChandanKarn",
+      "created_at": null,
+      "extracted_at": "2026-01-17T16:24:41.962785",
+      "opportunity_score": {
+        "pain": 6,
+        "pervasiveness": 1.4,
+        "proximity": 6.0,
+        "payment": 5.0,
+        "plausibility": 6.0,
+        "total": 24.4
+      },
+      "recommendation": "🔥 HIGH OPPORTUNITY - Worth pursuing immediately"
+    }
+  ]
+}
