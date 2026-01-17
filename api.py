@@ -29,7 +29,11 @@ def get_keywords():
     try:
         with open('research_keywords.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
-            return jsonify({'keywords': data.get('reddit_keywords', [])})
+            # Support both old and new key for backward compatibility
+            keywords = data.get('keywords')
+            if keywords is None:
+                keywords = data.get('reddit_keywords', [])
+            return jsonify({'keywords': keywords})
     except FileNotFoundError:
         return jsonify({'keywords': []})
 
@@ -38,10 +42,12 @@ def save_keywords():
     """Save keywords to research_keywords.json"""
     data = request.json
     keywords = data.get('keywords', [])
-    
+    source = data.get('source', None)
+    out = {'keywords': keywords}
+    if source:
+        out['source'] = source
     with open('research_keywords.json', 'w', encoding='utf-8') as f:
-        json.dump({'reddit_keywords': keywords}, f, indent=2)
-    
+        json.dump(out, f, indent=2)
     return jsonify({'success': True, 'keywords': keywords})
 
 @app.route('/api/research', methods=['POST'])

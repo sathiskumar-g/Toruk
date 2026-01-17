@@ -54,8 +54,7 @@ class OpportunityScorer:
         return scored
     
     def _score_problem(self, problem: Dict[str, Any]) -> Dict[str, Any]:
-        """Score a single problem"""
-        
+        """Score a single problem and add competitor detection"""
         scores = {
             "pain": self._score_pain(problem),
             "pervasiveness": self._score_pervasiveness(problem),
@@ -63,28 +62,40 @@ class OpportunityScorer:
             "payment": self._score_payment(problem),
             "plausibility": self._score_plausibility(problem)
         }
-        
-        # Calculate weighted total
         total = sum(
             scores[key] * self.weights.get(key, 1)
             for key in scores
         ) / sum(self.weights.values())
-        
         problem["opportunity_score"] = {
             **scores,
             "total": round(total, 2)
         }
-        
-        # Add recommendation
         problem["recommendation"] = self._get_recommendation(total)
-        
-        # Generate solution and business plan
         problem["solution"] = self._generate_solution(problem)
         problem["validation"] = self._generate_validation(problem)
         problem["business"] = self._generate_business_plan(problem)
         problem["roadmap"] = self._generate_roadmap(problem)
-        
+        # Add competitor detection
+        problem["competitors"] = self._find_competitors(problem)
         return problem
+
+    def _find_competitors(self, problem: Dict[str, Any]) -> list:
+        """
+        Find competitors: generate a single advanced Google search URL for the problem.
+        """
+        category = problem.get("category", "")
+        keyword = problem.get("research_keyword", "")
+        # Use only the research keyword(s) and category for the search
+        base_terms = [category, keyword]
+        base_terms = [t for t in base_terms if t]
+        quoted = ' '.join([f'"{t}"' for t in base_terms])
+        operators = ' (alternative OR competitor OR vs OR review OR "similar tool")'
+        query = f'{quoted} {operators}'
+        url = f'https://www.google.com/search?q={query.replace(" ", "+")}'
+        return [{
+            "name": "Google Competitor Search",
+            "url": url
+        }]
     
     def _score_pain(self, problem: Dict[str, Any]) -> float:
         """

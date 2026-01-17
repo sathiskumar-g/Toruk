@@ -411,7 +411,6 @@ function renderOpportunities(opportunities) {
             ${opp.roadmap ? `
                 <div class="roadmap-section">
                     <h3>🗺️ Product Roadmap</h3>
-                    
                     <div class="phase-grid">
                         <div class="phase-card">
                             <div class="phase-header phase-1">
@@ -424,7 +423,6 @@ function renderOpportunities(opportunities) {
                             </ul>
                             <p class="phase-metrics"><strong>Metrics:</strong> ${opp.roadmap.phase_1.metrics}</p>
                         </div>
-                        
                         <div class="phase-card">
                             <div class="phase-header phase-2">
                                 <h4>Phase 2: ${opp.roadmap.phase_2.name}</h4>
@@ -436,7 +434,6 @@ function renderOpportunities(opportunities) {
                             </ul>
                             <p class="phase-metrics"><strong>Metrics:</strong> ${opp.roadmap.phase_2.metrics}</p>
                         </div>
-                        
                         <div class="phase-card">
                             <div class="phase-header phase-3">
                                 <h4>Phase 3: ${opp.roadmap.phase_3.name}</h4>
@@ -451,9 +448,20 @@ function renderOpportunities(opportunities) {
                     </div>
                 </div>
             ` : ''}
+
+           
         </div>
     `).join('');
 }
+
+//  ${(opp.competitors && opp.competitors.length > 0) ? `
+//                 <div class="competitors-section">
+//                     <h3>🔎 Competitors / Existing Products</h3>
+//                     <ul class="competitors-list">
+//                         ${opp.competitors.map(c => `<li><a href="${c.url}" target="_blank" rel="noopener">${c.name}</a></li>`).join('')}
+//                     </ul>
+//                 </div>
+//             ` : ''}
 
 function exportResults() {
     if (!currentResults) {
