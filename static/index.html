@@ -63,10 +63,15 @@
 
         <div id="resultsSection" class="results-section" style="display: none;">
             <div class="results-header">
-                <h2>📊 Research Results</h2>
-                <button onclick="exportResults()" class="btn btn-export">Export JSON</button>
+                <div style="display: flex; align-items: center; gap: 16px;">
+                    <h2>📊 Research Results</h2>
+                    <select id="savedSelect" class="saved-select" style="min-width: 220px;"></select>
+                </div>
+                <div>
+                    <button onclick="exportResults()" class="btn btn-export">Export JSON</button>
+                    <button onclick="saveResults()" class="btn btn-save">Save</button>
+                </div>
             </div>
-            
             <div class="summary-cards">
                 <div class="card">
                     <div class="card-value" id="totalKeywords">0</div>

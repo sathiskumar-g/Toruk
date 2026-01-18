@@ -5,6 +5,7 @@ let currentResults = null;
 window.addEventListener('DOMContentLoaded', () => {
     loadKeywords();
     loadLatestResults();
+    renderSavedDropdown();
 });
 
 async function loadKeywords() {
@@ -32,6 +33,38 @@ async function loadLatestResults() {
     } catch (error) {
         console.error('Failed to load latest results:', error);
     }
+}
+
+// Fetch saved files list from backend for dropdown
+async function getSavedFiles() {
+    const response = await fetch('/api/list_saved_files');
+    if (!response.ok) return [];
+    return await response.json();
+}
+
+async function renderSavedDropdown() {
+    const files = await getSavedFiles();
+    const select = document.getElementById('savedSelect');
+    select.innerHTML = '<option value="">Select saved file...</option>' + files.map(f => `<option value="${f.filename}">${f.display}</option>`).join('');
+    select.value = '';
+    select.onchange = async function() {
+        const filename = select.value;
+        if (!filename) return;
+        const savedData = await fetchSavedFile(filename);
+        if (savedData) {
+            currentResults = savedData;
+            displayResults(savedData);
+            select.value = filename;
+        }
+    };
+}
+
+// Fetch a saved research file by filename
+async function fetchSavedFile(filename) {
+    if (!filename) return null;
+    const response = await fetch(`/api/saved/${encodeURIComponent(filename)}`);
+    if (!response.ok) return null;
+    return await response.json();
 }
 
 function handleKeyPress(event) {

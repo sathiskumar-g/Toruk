@@ -1,3 +1,4 @@
+
 """
 Simple Flask API for TORUKMACTO Reddit Research
 """
@@ -11,6 +12,34 @@ from pathlib import Path
 # Import the batch research function
 from scrapers import RedditScraper
 from processors import ProblemExtractor, OpportunityScorer
+
+
+
+app = Flask(__name__, static_url_path='', static_folder='static')
+CORS(app)
+
+# Place the /api/saved/<filename> endpoint BEFORE the static catch-all route
+@app.route('/api/saved/<filename>', methods=['GET'])
+def get_saved_file(filename):
+    """Serve a saved research JSON file from data/saved."""
+    from flask import abort
+    import urllib.parse
+    print(f"[DEBUG] Looking for file start")
+    # Decode URL-encoded filename
+    filename = urllib.parse.unquote(filename)
+    import os
+    save_dir = Path(os.path.abspath(os.path.join(os.getcwd(), 'mock', 'torukmacto', 'data', 'saved')))
+    file_path = save_dir / filename
+    print(f"[DEBUG] Looking for file: {file_path}")
+    print(f"[DEBUG] Exists: {file_path.exists()}, Is file: {file_path.is_file()}")
+    if not file_path.exists() or not file_path.is_file():
+        print("[DEBUG] 404: File not found")
+        abort(404)
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    print("[DEBUG] File loaded successfully")
+    return jsonify(data)
+
 
 app = Flask(__name__, static_url_path='', static_folder='static')
 CORS(app)
@@ -36,6 +65,30 @@ def get_keywords():
             return jsonify({'keywords': keywords})
     except FileNotFoundError:
         return jsonify({'keywords': []})
+
+# Register /api/list_saved_files at the top level
+@app.route('/api/list_saved_files', methods=['GET'])
+def list_saved_files():
+    """Return a list of saved research result files with display names."""
+    save_dir = Path('data/saved')
+    files = list(save_dir.glob('*.json'))
+    result = []
+    for f in files:
+        fname = f.name
+        match = None
+        # Match: name_YYYYMMDD_HHMMSS.json
+        import re
+        match = re.match(r'^(.*)_([0-9]{8}_[0-9]{6})\.json$', fname)
+        display = fname
+        if match:
+            name = match.group(1)
+            ts = match.group(2)
+            year, month, day = ts[:4], ts[4:6], ts[6:8]
+            hour, minute, sec = ts[9:11], ts[11:13], ts[13:15]
+            formatted = f"{year}-{month}-{day} {hour}:{minute}:{sec}"
+            display = f"{name} - {formatted}"
+        result.append({"filename": fname, "display": display})
+    return jsonify(result)
 
 @app.route('/api/keywords', methods=['POST'])
 def save_keywords():
@@ -182,6 +235,25 @@ def get_latest_results():
         results = json.load(f)
     
     return jsonify(results)
+
+@app.route('/api/save_results', methods=['POST'])
+def save_results():
+    """Save current research results to the saved folder with a requested filename and timestamp."""
+    data = request.json
+    results = data.get('results')
+    filename = data.get('filename')
+    if not results or not filename:
+        return jsonify({'error': 'Missing results or filename'}), 400
+    # Ensure safe filename (alphanumeric, dash, underscore only)
+    import re
+    safe_filename = re.sub(r'[^a-zA-Z0-9-_]', '_', filename)
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    save_dir = Path('data/saved')
+    save_dir.mkdir(parents=True, exist_ok=True)
+    full_filename = save_dir / f"{safe_filename}_{timestamp}.json"
+    with open(full_filename, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    return jsonify({'success': True, 'saved_file': str(full_filename)})
 
 if __name__ == '__main__':
     print("🚀 Starting TORUKMACTO Research API...")

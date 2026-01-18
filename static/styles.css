@@ -1,3 +1,15 @@
+#savedSelect {
+    padding: 8px 16px;
+    font-size: 15px;
+    background: #181818;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 4px;
+    transition: border 0.2s;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -90,13 +102,7 @@ header h1 {
     margin-left: 4px;
     transition: border 0.2s;
 }
-#sourceSelect:focus {
-    border: 1.5px solid #00ff00;
-}
-    border-radius: 4px;
-    outline: none;
-    transition: border-color 0.3s;
-}
+
 
 .input-group input:focus {
     border-color: #ffffff;
@@ -175,10 +181,6 @@ header h1 {
     padding: 8px 16px;
 }
 
-.btn-clear:hover {
-    background: #cc5500;
-    box-shadow: 0 0 10px rgba(255, 107, 0, 0.5);
-}
 
 .btn-export {
     background: #ffffff;
@@ -187,9 +189,21 @@ header h1 {
     border-color: #ffffff;
 }
 
+.btn-save {
+    background: #ffffff;
+    color: #0a0a0a;
+    padding: 10px 20px;
+    border-color: #ffffff;
+}
+
 .btn-export:hover {
-    background: #00cc00;
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    transform: translateY(-2px);
+}
+.btn-save:hover {
+    transform: translateY(-2px);
+}
+.btn-clear:hover {
+    transform: translateY(-2px);
 }
 
 .keywords-section {
